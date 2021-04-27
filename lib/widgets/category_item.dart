@@ -4,9 +4,8 @@ import 'package:meals_app/screens/category_meals_screen.dart';
 class CategoryItem extends StatelessWidget {
   final String title;
   final String id;
-  final Color color;
 
-  CategoryItem({this.title, this.color, this.id});
+  CategoryItem({this.title, this.id});
 
   void selectCategory(BuildContext ctx) {
     Navigator.of(ctx).pushNamed(CategoryMealsScreen.routeName,
@@ -27,7 +26,7 @@ class CategoryItem extends StatelessWidget {
         ),
         decoration: BoxDecoration(
             gradient: LinearGradient(
-                colors: [color.withOpacity(0.7), color],
+                colors: [Colors.grey[300].withOpacity(0.7), Colors.grey[300]],
                 begin: Alignment.topLeft,
                 end: Alignment.bottomRight),
             borderRadius: BorderRadius.circular(15)),

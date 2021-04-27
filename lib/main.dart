@@ -71,9 +71,9 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Meals app',
       theme: ThemeData(
-          primarySwatch: Colors.green,
+          primarySwatch: Colors.blue,
           accentColor: Colors.greenAccent,
-          canvasColor: Colors.grey,
+          canvasColor: Colors.white,
           fontFamily: 'Railway',
           textTheme: ThemeData.light().textTheme.copyWith(
               bodyText1: TextStyle(color: Color.fromRGBO(20, 51, 51, 1)),
