@@ -9,13 +9,16 @@ class MainDrawer extends StatelessWidget {
         Container(
           height: 120,
           width: double.infinity,
-          padding: EdgeInsets.all(20),
+          padding: EdgeInsets.only(top: 10, left: 30),
           alignment: Alignment.centerLeft,
           color: Theme.of(context).primaryColor,
           child: Text(
             'Meals App',
             style: TextStyle(
-                fontWeight: FontWeight.w900, fontSize: 30, color: Colors.grey),
+              fontWeight: FontWeight.w900,
+              fontSize: 30,
+              color: Colors.grey[300],
+            ),
           ),
         ),
         SizedBox(height: 20),

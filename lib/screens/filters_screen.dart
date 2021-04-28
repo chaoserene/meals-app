@@ -33,6 +33,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
         title: Text(title),
         subtitle: Text(subtitle),
         value: currentValue,
+        activeColor: Theme.of(context).primaryColor,
         onChanged: updateState);
   }
 

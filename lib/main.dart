@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meals_app/dummy_data.dart';
 import 'package:meals_app/screens/category_meals_screen.dart';
-import 'package:meals_app/screens/favorites_screen.dart';
 import 'package:meals_app/screens/filters_screen.dart';
 import 'package:meals_app/screens/meal_detail_screen.dart';
 import 'package:meals_app/screens/tabs_screen.dart';
@@ -72,7 +71,7 @@ class _MyAppState extends State<MyApp> {
       title: 'Meals app',
       theme: ThemeData(
           primarySwatch: Colors.blue,
-          accentColor: Colors.greenAccent,
+          accentColor: Colors.blue[200],
           canvasColor: Colors.white,
           fontFamily: 'Railway',
           textTheme: ThemeData.light().textTheme.copyWith(

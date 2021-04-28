@@ -5,55 +5,65 @@ import 'models/meal.dart';
 
 const DUMMY_CATEGORIES = const [
   Category(
-    id: 'c1',
-    title: 'Italian',
-    color: Colors.purple,
-  ),
+      id: 'c1',
+      title: 'Italian',
+      color: Colors.purple,
+      imageUrl:
+          'https://cdnuploads.aa.com.tr/uploads/Contents/2020/06/17/thumbs_b_c_217d3664876b26f475274017ce7eff19.jpg?v=200856'),
   Category(
-    id: 'c2',
-    title: 'Quick & Easy',
-    color: Colors.red,
-  ),
+      id: 'c2',
+      title: 'Quick & Easy',
+      color: Colors.red,
+      imageUrl:
+          'https://blog.gazinatacado.com.br/wp-content/uploads/2015/07/bigstock-Hour-glass-and-calendar-concep-216610957.jpg?x47959'),
   Category(
-    id: 'c3',
-    title: 'Hamburgers',
-    color: Colors.orange,
-  ),
+      id: 'c3',
+      title: 'Hamburgers',
+      color: Colors.orange,
+      imageUrl:
+          'https://claudia.abril.com.br/wp-content/uploads/2020/01/receita-hamburguer-calabres.jpg?quality=90&strip=info'),
   Category(
-    id: 'c4',
-    title: 'German',
-    color: Colors.amber,
-  ),
+      id: 'c4',
+      title: 'German',
+      color: Colors.amber,
+      imageUrl:
+          'https://cdn.pixabay.com/photo/2016/11/18/20/56/berlin-1836822_1280.jpg'),
   Category(
-    id: 'c5',
-    title: 'Light & Lovely',
-    color: Colors.blue,
-  ),
+      id: 'c5',
+      title: 'Light & Lovely',
+      color: Colors.blue,
+      imageUrl:
+          'https://www.benefiber.com/amp/img/satisfying-light-meals/benefiber-light-spring-meals-that-satisfy-main.jpg'),
   Category(
-    id: 'c6',
-    title: 'Exotic',
-    color: Colors.green,
-  ),
+      id: 'c6',
+      title: 'Exotic',
+      color: Colors.green,
+      imageUrl:
+          'https://www.wapititravel.com/blog/wp-content/uploads/2020/01/sukiyaka_healthy_japan_food.jpg.webp'),
   Category(
-    id: 'c7',
-    title: 'Breakfast',
-    color: Colors.lightBlue,
-  ),
+      id: 'c7',
+      title: 'Breakfast',
+      color: Colors.lightBlue,
+      imageUrl:
+          'https://carismafood.com.br/wp-content/uploads/2017/06/coffee-morning-breakfast-croissant.jpg'),
   Category(
-    id: 'c8',
-    title: 'Asian',
-    color: Colors.lightGreen,
-  ),
+      id: 'c8',
+      title: 'Asian',
+      color: Colors.lightGreen,
+      imageUrl:
+          'https://hips.hearstapps.com/del.h-cdn.co/assets/17/15/1600x800/landscape-1492181920-delish-sticky-orange-chicken-2.jpg?resize=980:*'),
   Category(
-    id: 'c9',
-    title: 'French',
-    color: Colors.pink,
-  ),
+      id: 'c9',
+      title: 'French',
+      color: Colors.pink,
+      imageUrl:
+          'https://europa.eu/europass/sites/default/files/2020-04/France_0.jpg'),
   Category(
-    id: 'c10',
-    title: 'Summer',
-    color: Colors.teal,
-  ),
+      id: 'c10',
+      title: 'Summer',
+      color: Colors.teal,
+      imageUrl:
+          'https://www.shethepeople.tv/wp-content/uploads/2017/06/Stay-cool-this-summer.jpg'),
 ];
 
 const DUMMY_MEALS = const [

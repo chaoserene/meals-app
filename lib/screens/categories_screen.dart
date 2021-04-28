@@ -17,6 +17,7 @@ class CategoriesScreen extends StatelessWidget {
             .map((cat) => CategoryItem(
                   title: cat.title,
                   id: cat.id,
+                  urlImage: cat.imageUrl,
                 ))
             .toList());
   }
